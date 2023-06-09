@@ -1,0 +1,82 @@
+/*@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";*/
+@import "bulma.min.css";
+
+
+
+
+body {
+    font-family: Nanum Gothic, Helvetica, arial, sans-serif;
+}
+
+div {
+    border: 1px solid red;
+}
+
+footer {
+    padding: 40px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+}
+
+footer a {
+
+    color: darkgray;
+    text-decoration: none;
+}
+
+.banner {
+
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    min-height: 540px;
+    /*background-repeat: no-repeat;*/
+    /*background-image: url("/images/cover.jpeg");*/
+    background-size: cover;
+
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    /*background-size:  cover;*/
+    /*background-color: #999;*/
+
+}
+
+.logo {
+    font-family: UnifrakturMaguntia, "Times New Roman", serif;
+    background: linear-gradient(#9AB7BE, #F3E0C4);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.3rem;
+    text-align: center;
+}
+
+.social {
+    float: right;
+    padding: 5px;
+    /*width: 18px;*/
+    /*margin-right: 10px;*/
+    /*vertical-align: center;*/
+}
+
+@media screen and (max-width: 1087px) {
+    .navbar-menu {
+        background-color: black;
+    }
+}
+.navbar-item {
+    background-color: black;
+}
+a.navbar-item:hover {
+    background-color: black;
+    color: #CFE2DD;;
+}
+.navbar-burger.burger.is-active {
+background-color: black;
+}
+.navbar-burger {
+    background-color: black;
+}
